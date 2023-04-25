@@ -18,7 +18,7 @@ function Mutable(params) {
     return (
         <div>
             <h1>{title.firstTitle + " " + title.lastTitle}</h1>
-            <button onClick={!changeTitle}>changeTitle</button>
+            <button onClick={changeTitle}>changeTitle</button>
         </div>
     )
 
