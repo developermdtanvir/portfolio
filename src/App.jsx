@@ -1,12 +1,15 @@
+import { Suspense } from 'react'
 import './App.css'
 import Mutable from './components/Mutable'
-import Quote from './components/axios/Quote'
+import Quote from './components/swr/Quote'
 
 function App() {
   return (
     <div>
       <Mutable />
-      <Quote />
+      <Suspense
+        fallback={<h1>Loading.........</h1>}
+      ><Quote /></Suspense>
     </div>
   )
 }
