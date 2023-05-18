@@ -1,12 +1,27 @@
 import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import { AiOutlineDownload } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiOutlineDownload, AiOutlineFacebook } from "react-icons/ai";
 import Lottie from "react-lottie";
 import { TypeAnimation } from "react-type-animation";
 import introduceData from '../assets/introduce.json';
 import animationData from '../assets/lottie.json';
+import useDocumentTitle from '../hooks/useDocumentTitle';
 function Home() {
+
+    const downloadPDF = () => {
+        // using Java Script method to get PDF file
+        fetch('resume.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'resume.pdf';
+                alink.click();
+            })
+        })
+    }
 
     const banner = {
         loop: true,
@@ -30,7 +45,7 @@ function Home() {
         AOS.init();
     }, [])
 
-
+    useDocumentTitle('Home')
 
     return (
         <div>
@@ -61,7 +76,7 @@ function Home() {
 
                         <p>A highly passionate and determined web developer with proficiency in major Frontend technology as well as the ability to communicate effectively in a team setting seeks to apply for the position of Intern or job as a Frontend Developer</p>
 
-                        <button className="btn btn-danger">Download Resume <span><AiOutlineDownload /></span></button>
+                        <button onClick={downloadPDF} className="btn btn-danger">Download Resume <span><AiOutlineDownload /></span></button>
                     </div>
                 </div>
                 <div data-aos="zoom-in"
@@ -82,6 +97,17 @@ function Home() {
                 </div>
                 <div data-aos="fade-left" className=' col-md-6'>
                     <Lottie options={introduce} />
+                </div>
+            </div>
+            <div className="d-flex justify-content-center ">
+                <div className=" text-light text-center">
+                    <h1 className="">FIND ME ON</h1>
+                    <p className=" fs-2">Feel free to <span style={{ color: "#f9004d" }}>connect</span> with me</p>
+                    <div>
+                        <span className='fs-3 mx-2 btn btn-outline-primary rounded-circle'><a target='_blank' href="https://github.com/mdtanvirgit"><AiFillGithub /></a></span>
+                        <span className='fs-3 mx-2 btn btn-outline-primary rounded-circle'><a target='_blank' href=""><AiOutlineFacebook /></a></span>
+                        <span className='fs-3 mx-2 btn btn-outline-primary rounded-circle'><a target='_blank' href="https://www.linkedin.com/in/md-tanvir-hossain-704917265/"><AiFillLinkedin /></a></span>
+                    </div>
                 </div>
             </div>
         </div>
