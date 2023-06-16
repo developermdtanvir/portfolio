@@ -10,7 +10,7 @@ function Home() {
 
     const downloadPDF = () => {
         // using Java Script method to get PDF file
-        fetch('resume.pdf').then(response => {
+        fetch('./tanvirhossain.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
@@ -74,7 +74,7 @@ function Home() {
 
                         ></TypeAnimation>
 
-                        <p>A highly passionate and determined web developer with proficiency in major Frontend technology as well as the ability to communicate effectively in a team setting seeks to apply for the position of Intern or job as a Frontend Developer</p>
+                        <p>A passionate Intermediate Full Stack Developer 🚀 having an experience of building responsive Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.</p>
 
                         <button onClick={downloadPDF} className="btn btn-danger">Download Resume <span><AiOutlineDownload /></span></button>
                     </div>
@@ -87,13 +87,14 @@ function Home() {
             </div>
             <div className=' row'>
                 <div data-aos="fade-right" className='text-light col-md-6'>
-                    <h1>LET ME <span style={{ color: "#f9004d" }}>INTRODUCE</span> MYSELF</h1>
+                    <h1>GET TO <span style={{ color: "#f9004d" }}>KNOW </span>ME</h1>
 
-                    <p className='fs-5 mt-2'>Hello! First of all thanks for visiting my portfolio. I'm Tanvir from Bangladesh.</p>
+                    <p className='fs-5 mt-2'>I am a Self taught Front-End Web Developer based in Bangladesh with an eye for beautiful UI designs/interface.</p>
 
                     <p className="mt-2 fs-5">
-                        From my early age, I was very curious about programming/coding. Web development was my favourite sector for working and currently I'm working in Web Development field. It's my passion to learn and play with new web technologies.
+                        I started my coding journey in 2020 during the covid era,I took up programming as an interest that year and i have picked up some skills on the long but short Road.
                     </p>
+                    <p className='mt-2 fs-5'>I now build and bring out new strategies on websites and webdesigns for great user experience and best user interface for easy usage and very concise for client's best choice with my technical and professional skills.</p>
                 </div>
                 <div data-aos="fade-left" className=' col-md-6'>
                     <Lottie options={introduce} />

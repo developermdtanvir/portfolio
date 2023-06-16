@@ -1,3 +1,4 @@
+
 import 'aos/dist/aos.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css';
@@ -36,7 +37,9 @@ function App() {
   return (
     <div style={{ backgroundColor: 'rgba(0, 0, 0,1.5)' }}>
       <div className=' container mx-auto'>
+
         <RouterProvider router={router} ></RouterProvider>
+
       </div>
     </div>
   )

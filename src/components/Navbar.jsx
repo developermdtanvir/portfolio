@@ -19,6 +19,9 @@ function Navbar() {
                                 <Link className="nav-link fs-5 text-white" to="/about">About </Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link fs-5 text-white" to="/contact" tabindex="-1" aria-disabled="true">Contact</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link fs-5 text-white" to="/project" tabindex="-1" aria-disabled="true">Project</Link>
                             </li>
                         </ul>

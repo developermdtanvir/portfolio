@@ -22,3 +22,40 @@
 .font-familay{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+
+.background-image{
+    background-image: url('./assets/footer.svg');
+    background-size: cover;
+}
+
+.mash-bg{
+	background-image: url('./assets/mesh-bg.png');
+	background-size: cover;
+}
+
+.cursor{
+	cursor: pointer;
+}
+.cursor:hover{
+	opacity:1;
+}
+
+.primary-color{
+	color: rgb(249, 0, 77);
+}
+#name,#email,#textarea{
+	background-color: black;
+}
+#name,#email,#textarea{
+	border: 1px solid rgb(249, 0, 77) ;
+}
+
+.border-type{
+    border: 2px solid rgb(249, 0, 77) ;
+}
+
+  input,textarea:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px rgb(249, 0, 77)	;
+ }

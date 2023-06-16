@@ -95,17 +95,17 @@ function About() {
             <div className="row ">
                 <div className="col-md-6">
                     <h1 className="text-center">About <span style={{ color: "#f9004d" }}>Me</span></h1>
-                    <p className=" fs-3">I'm Tanvir Hossain, a professional MERN Stack Web Developer.</p>
-                    <p className=" fs-3">I do Front-End Web Development, MERN Stact Web Development, PSD to HTML,Figma to HTML, Responsive web Design,etc</p>
+                    <p className=" fs-3">HI I'm Tanvir Hossain, a professional MERN Stack Web Developer.</p>
+                    <p className=" fs-3">I love building websites and am always looking forward to improving my skills.I Work Figma To HTML , Responsive Web Design etc</p>
                     <div>
                         <div className='d-flex align-items-center"'><ImProfile className=' me-2 fs-3' /><p className=' fs-4'>Tanvir Hossain</p></div>
                         <div className='d-flex align-items-center"'><IoMdMail className=' me-2 fs-3' /><p className=' fs-4'>officialtanvir@hotmail.com</p></div>
-                        <div className='d-flex align-items-center"'><HiLocationMarker className=' me-2 fs-3' /><p className=' fs-4'>Hajigonj,Chandpur,Bangladesh</p></div>
+                        <div className='d-flex align-items-center"'><HiLocationMarker className=' me-2 fs-3' /><p className=' fs-4'>Hajiganj,Chandpur,Bangladesh</p></div>
                         <div></div>
                     </div>
                 </div>
-                <div className="col-md-6">
-                    <img className='img-fluid' src={image} alt="" />
+                <div className="col-md-6 h-25 ">
+                    <img className='img-fluid  border-secondary' src={image} alt="" />
                 </div>
             </div>
             <div className='mt-5'>
@@ -114,7 +114,10 @@ function About() {
                 <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-4 m-0 px-4 px-md-5 d-flex justify-content-center g-5">
                     {
                         skills.map(skill => <div data-aos="fade-up-left" className=' my-auto col-md-3 row-md-3 text-center p-2 '>
-                            <img className='h-75 w-75 img-fluid' src={skill.img} alt="" />
+                            <div className=' p-2 h-75 w-75  border-type '>
+                                <div> <img className='h-75 w-25 img-fluid' src={skill.img} alt="" /></div>
+                                <div><p>{skill.name}</p></div>
+                            </div>
                         </div>)
                     }
                 </div>
