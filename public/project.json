@@ -1,43 +1,46 @@
 [
-    {
-      "name": "bistro-boss-restaurant",
-      "image": "https://i.ibb.co/m0tTWXC/bistroboss.png",
-      "description": "A full-stack project with user and admin dashboards, login/logout functionality, and JWT authentication.",
-      "websiteLink": "https://bistro-boss-restraurent.web.app/",
-      "technologies": ["MERN Stack", "JWT"]
-    },
-    {
-      "name": "Portfolio",
-      "image": "https://i.ibb.co/FVZkTwx/portfolio.png",
-      "description": "A fully responsive portfolio website with a beautiful design. It's built using HTML, CSS, JavaScript, Bootstrap, and React.js.",
-      "websiteLink": "https://devtanvirhossain.netlify.app/",
-      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "React.js"]
-    },
-    {
-      "name": "FoodExpross",
-      "image": " https://i.ibb.co/1dyxQJr/food-dalivary.png",
-      "description": "FoodExpross is a stunning template for restaurants. It incorporates HTML, CSS, JavaScript, Bootstrap, and API integration for fetching data.",
-     
-      "websiteLink": "https://food-dalivary.netlify.app/",
-      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "API"]
-    },
-    {
-      "name": "Slider",
-      "image": "https://i.ibb.co/fnbTbP2/slider.png",
-      "description": "A website for creating sliders with various images. It utilizes HTML, CSS, JavaScript, Bootstrap, and API.",
-      "websiteLink": "https://create-custom-slider.netlify.app/",
-      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "API"]
-    },
-    {
-      "name": "Panda Commerce",
-      "image": "https://i.ibb.co/mT1QCBD/pandacommarce.png",
-      "description": "Panda Commerce is an e-commerce template developed with HTML, CSS, JavaScript, and Bootstrap.",
-      "websiteLink": "https://backpack-show.netlify.app/",
-      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"]
-    }
-  ]
-  
+  {
+    "name": "bistro-boss-restaurant",
+    "image": "https://i.ibb.co/m0tTWXC/bistroboss.png",
+    "description": "A full-stack project with user and admin dashboards, login/logout functionality, and JWT authentication.",
+    "websiteLink": "https://bistro-boss-restraurent.web.app/",
+    "technologies": ["MERN Stack", "JWT"]
+  },
+  {
+    "name": "Portfolio",
+    "image": "https://i.ibb.co/FVZkTwx/portfolio.png",
+    "description": "A fully responsive portfolio website with a beautiful design. It's built using HTML, CSS, JavaScript, Bootstrap, and React.js.",
+    "websiteLink": "https://devtanvirhossain.netlify.app/",
+    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "React.js"]
+  },
+  {
+    "name": "FoodExpross",
+    "image": " https://i.ibb.co/1dyxQJr/food-dalivary.png ",
+    "description": "FoodExpross is a stunning template for restaurants. It incorporates HTML, CSS, JavaScript, Bootstrap, and API integration for fetching data.",
 
-  
+    "websiteLink": "https://food-dalivary.netlify.app/",
+    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "API"]
+  },
+  {
+    "name": "Scoreboard",
+    "image": "https://i.ibb.co/WsPKtqJ/scoreboard.png",
+    "description": "Scoreboard uses Technologies this project focus on vanila Javascript && Focus Redux state management manually",
 
- 
+    "websiteLink": "https://scoreboard-score.netlify.app/ ",
+    "technologies": ["HTML", "CSS", "JavaScript", "Redux"]
+  },
+  {
+    "name": "Slider",
+    "image": "https://i.ibb.co/fnbTbP2/slider.png",
+    "description": "A website for creating sliders with various images. It utilizes HTML, CSS, JavaScript, Bootstrap, and API.",
+    "websiteLink": "https://create-custom-slider.netlify.app/",
+    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "API"]
+  },
+  {
+    "name": "Panda Commerce",
+    "image": "https://i.ibb.co/mT1QCBD/pandacommarce.png",
+    "description": "Panda Commerce is an e-commerce template developed with HTML, CSS, JavaScript, and Bootstrap.",
+    "websiteLink": "https://backpack-show.netlify.app/",
+    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+  }
+]

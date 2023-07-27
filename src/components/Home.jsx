@@ -105,7 +105,7 @@ function Home() {
                     <h1 className="">FIND ME ON</h1>
                     <p className=" fs-2">Feel free to <span style={{ color: "#f9004d" }}>connect</span> with me</p>
                     <div>
-                        <span className='fs-3 mx-2 btn btn-outline-primary rounded-circle'><a target='_blank' href="https://github.com/mdtanvirgit"><AiFillGithub /></a></span>
+                        <span className='fs-3 mx-2 btn btn-outline-primary rounded-circle'><a target='_blank' href="https://github.com/developermdtanvir"><AiFillGithub /></a></span>
                         <span className='fs-3 mx-2 btn btn-outline-primary rounded-circle'><a target='_blank' href=""><AiOutlineFacebook /></a></span>
                         <span className='fs-3 mx-2 btn btn-outline-primary rounded-circle'><a target='_blank' href="https://www.linkedin.com/in/md-tanvir-hossain-704917265/"><AiFillLinkedin /></a></span>
                     </div>

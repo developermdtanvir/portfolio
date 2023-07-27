@@ -22,7 +22,7 @@ function Project() {
                     project.map(item => <div className="card col-md-3 m-2 mx-auto" style={{ width: '18rem' }}>
                         <img src={item.image} className="card-img-top img-fluid h-50" alt="..." />
                         <div className="card-body">
-                            <p className="card-text">i{item.description}</p>
+                            <p className="card-text">{item.description}</p>
                             <a target="_blank" className="btn btn-primary d-flex justify-content-center" href={item.websiteLink}>Preview</a>
                         </div>
 
